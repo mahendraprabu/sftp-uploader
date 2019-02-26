@@ -1,0 +1,14 @@
+{  
+   "Title":"SFTP uploader",
+   "User":"mahendra",
+   "Password":"Secret123",
+   "Server":"127.0.0.1:22",
+   "CollectionFolder":"C:/data/collect/",
+   "FileNameFilter": ["ConnectionTest.txt",".csv",".edi","POAck_"],
+   "ProcessingFolder":"C:/data/processing/",
+   "DoneFolder":"C:/data/done/",
+   "RemoteSftpPath":"/input/",
+   "LogFile": "logs/SFTP_upload",
+   "ConnectRetry":3,
+   "RetryInterval":3
+}
