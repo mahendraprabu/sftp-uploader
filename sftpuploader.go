@@ -47,7 +47,7 @@ func main() {
 			}
 			var validFile bool
 			for _, filter := range initConfig.FileNameFilter {
-				if strings.HasPrefix(fileName.Name(), filter) {
+				if strings.Contains(fileName.Name(), filter) {
 					validFile = true
 				}
 			}
